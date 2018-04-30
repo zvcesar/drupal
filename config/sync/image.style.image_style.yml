@@ -1,0 +1,17 @@
+uuid: d0598e02-29e7-458a-9ec7-be3975f026db
+langcode: en
+status: true
+dependencies:
+  config:
+    - crop.type.test_type
+  module:
+    - crop
+name: image_style
+label: 'image style'
+effects:
+  99077065-8fcd-4b97-9183-4014ff3e3234:
+    uuid: 99077065-8fcd-4b97-9183-4014ff3e3234
+    id: crop_crop
+    weight: 1
+    data:
+      crop_type: test_type

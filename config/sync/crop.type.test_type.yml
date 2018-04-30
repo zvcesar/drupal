@@ -1,0 +1,12 @@
+uuid: 5a798c5d-4434-4195-ae7c-454a2c41912a
+langcode: en
+status: true
+dependencies: {  }
+label: 'test type'
+id: test_type
+description: ''
+aspect_ratio: '16:9'
+soft_limit_width: 200
+soft_limit_height: 200
+hard_limit_width: 50
+hard_limit_height: 50

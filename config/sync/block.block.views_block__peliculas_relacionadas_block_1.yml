@@ -1,0 +1,25 @@
+uuid: aa6d6bf1-b04b-451d-97b7-dcd5acc4d2a7
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.peliculas_relacionadas
+  module:
+    - views
+  theme:
+    - bartik
+id: views_block__peliculas_relacionadas_block_1
+theme: bartik
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'views_block:peliculas_relacionadas-block_1'
+settings:
+  id: 'views_block:peliculas_relacionadas-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility: {  }
